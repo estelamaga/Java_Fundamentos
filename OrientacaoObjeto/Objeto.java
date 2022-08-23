@@ -27,5 +27,9 @@ public class Objeto {
         System.out.println(meuProduto.nome);
         System.out.println("R$ " + meuProduto.preco);
         System.out.println(meuProduto.desconto + "%");
+        System.out.println();
+
+        Pessoa minhaPessoa = new Pessoa("Estela", "estela@hotmail.com", 1988);
+        minhaPessoa.imprime_info();
     }
 }
